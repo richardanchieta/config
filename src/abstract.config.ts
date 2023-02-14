@@ -9,7 +9,7 @@ import { ConfigModuleOptions, EnvHash } from './interfaces';
  * Invokes the entry point in the ConfigManager.
  */
 export abstract class AbstractConfigManager {
-  protected readonly logger = new Logger('ConfigManager', false);
+  protected readonly logger = new Logger('ConfigManager', { timestamp: false });
 
   protected readonly procEnv: EnvHash;
 
