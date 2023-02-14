@@ -12,6 +12,6 @@
     "baseUrl": "./",
     "noLib": false
   },
-  "include": ["*.ts", "**/*.ts"],
-  "exclude": ["./index.ts", "./index.d.ts", "node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
