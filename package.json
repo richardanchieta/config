@@ -40,7 +40,7 @@
   },
   "bugs": "https://github.com/nestjsplus/config/issues",
   "peerDependencies": {
-    "@nestjs/common": "^6.0.0"
+    "@nestjs/common": "^9.3.0"
   },
   "publishConfig": {
     "access": "public"
